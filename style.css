@@ -41,6 +41,7 @@ div {
 }
 
 input {
+    outline: none !important;
     background-color: unset;
     font: 16px "Poppins";
     color: #d5d5d5;
