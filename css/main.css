@@ -8,7 +8,7 @@
 
 body {
     height: 100vh;
-    background: #292831;
+    background: #575f7e;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -36,9 +36,9 @@ body {
 #form input {
     position: relative;
     outline: none !important;
-    background: #333f58;
+    background: #62778c;
     font: 16px "Poppins";
-    color: #4a7a96;
+    color: #fbbbad;
     height: 100%;
     width: 100%;
     border: none;
@@ -48,13 +48,13 @@ body {
 
 #form #searchBtn {
     position: absolute;
-    background: #333f58;
+    background: #62778c;
     top: 50%;
     right: -2;
     height: 30px;
     width: 30px;
     border: none;
-    color: #4a7a96;
+    color: #fbbbad;
     font-size: 20px;
     cursor: pointer;
     opacity: 0;
