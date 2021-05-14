@@ -48,6 +48,7 @@ body {
 
 #form #searchBtn {
     position: absolute;
+    background: #333f58;
     top: 50%;
     right: -2;
     height: 30px;
