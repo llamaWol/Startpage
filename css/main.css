@@ -34,6 +34,7 @@ body {
 }
 
 #form input {
+    position: relative;
     outline: none !important;
     background: #384149;
     font: 16px "Poppins";
