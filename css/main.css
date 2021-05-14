@@ -34,7 +34,6 @@ body {
 }
 
 #form input {
-    position: relative;
     outline: none !important;
     background: #384149;
     font: 16px "Poppins";
@@ -66,5 +65,5 @@ body {
 
 #form #searchBtn.shown {
     opacity: 1;
-    transform: translate(0, 0);
+    transform: translate(0, -50%);
 }
