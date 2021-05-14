@@ -67,4 +67,5 @@ body {
 #form #searchBtn.shown {
     opacity: 1;
     transform: translate(0, -50%);
+    pointer-events: all
 }
