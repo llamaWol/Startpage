@@ -2,36 +2,25 @@
 <html>
   <head>
     <title>Start</title>
-    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="./css/main.css" />
+    <script src="https://kit.fontawesome.com/4733dfd584.js" crossorigin="anonymous"></script>
   </head>
   <body>
-    <p class="center">
-      <img
-        src="./cookie.png"
-        width="150"
-        height="150"
-      />
-    </p>
-    <form id="form" role="search">
+    <img
+      id="cookie"
+      src="./assets/cookie.png"
+      width="150"
+      height="150"
+    />
+    <form id="form">
       <input
         type="search"
         id="query"
         name="q"
         placeholder="Search..."
       />
+      <button id="searchBtn"><i class="fas fa-arrow-right"></i></button>
     </form>
-    <script>
-      const f = document.getElementById("form");
-      const q = document.getElementById("query");
-      const search = "https://www.qwant.com/?q=";
-
-      function submitted(event) {
-        event.preventDefault();
-        const url = search + q.value + "&t=web";
-        window.open(url, "_self");
-      }
-
-      f.addEventListener("submit", submitted);
-    </script>
+    <script src="./js/main.js"></script>
   </body>
 </html>

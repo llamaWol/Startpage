@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: #1f252a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#cookie {
+    position: fixed;
+    top: 25%;
+    transform: translate(0, -50%);
+    cursor: pointer;
+    transition: 0.15s ease-in-out;
+}
+
+#cookie:hover {
+    transform: translate(0, -50%) scale(1.05);
+}
+
+#form {
+    position: relative;
+    width: 60vw;
+    height: 40px;
+}
+
+#form input {
+    outline: none !important;
+    background: unset;
+    font: 16px "Poppins";
+    color: #d5d5d5;
+    height: 100%;
+    width: 100%;
+    border: none;
+    border-bottom: solid 2px #384149;
+    text-align: center;
+}
+
+#form #searchBtn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #394f54;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    border: none;
+    color: #d5d5d5;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    transform: translate(-10px, 0);
+    transition: 0.15s ease-in-out;
+}
+
+#form #searchBtn.shown {
+    opacity: 1;
+    transform: translate(0, 0);
+}
