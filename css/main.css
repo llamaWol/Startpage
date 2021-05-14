@@ -41,7 +41,8 @@ body {
     height: 100%;
     width: 100%;
     border: none;
-    border-bottom: solid 2px #384149;
+    border-bottom: solid 24px #384149;
+    border-bottom-radius: 25%;
     text-align: center;
 }
 
