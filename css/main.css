@@ -35,13 +35,12 @@ body {
 
 #form input {
     outline: none !important;
-    background: unset;
+    background: #384149;
     font: 16px "Poppins";
     color: #d5d5d5;
     height: 100%;
     width: 100%;
     border: none;
-    border-bottom: solid 24px #384149;
     text-align: center;
 }
 
