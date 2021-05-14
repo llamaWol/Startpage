@@ -36,9 +36,9 @@ body {
 #form input {
     position: relative;
     outline: none !important;
-    background: #292831;
+    background: #333f58;
     font: 16px "Poppins";
-    color: #333f58;
+    color: #4a7a96;
     height: 100%;
     width: 100%;
     border: none;
@@ -50,12 +50,12 @@ body {
     position: absolute;
     top: 50%;
     right: 0;
-    background: #292831;
+    background: #333f58;
     height: 30px;
     width: 30px;
     border-radius: 40%;
     border: none;
-    color: #333f58;
+    color: #4a7a96;
     font-size: 20px;
     cursor: pointer;
     opacity: 0;
