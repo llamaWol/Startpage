@@ -2,6 +2,8 @@
 
 :root {
     --bg-colour: #4a3a42;
+    --bg-bright: #655057;
+    --text-colour: #f6edcd;
 }
 
 * {
@@ -12,7 +14,7 @@
 
 body {
     height: 100vh;
-    background: var(--bg-colour);
+    background: var(--text-colour);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -40,9 +42,9 @@ body {
 #form input {
     position: relative;
     outline: none !important;
-    background: #62778c;
+    background: var(--bg-bright);
     font: 16px "Poppins";
-    color: #fbbbad;
+    color: var(--text-colour);
     height: 100%;
     width: 100%;
     border: none;
@@ -52,13 +54,13 @@ body {
 
 #form #searchBtn {
     position: absolute;
-    background: #62778c;
+    background: var(--bg-bright);
     top: 50%;
     right: -2;
     height: 30px;
     width: 30px;
     border: none;
-    color: #fbbbad;
+    color: var(--text-colour);
     font-size: 20px;
     cursor: pointer;
     opacity: 0;
