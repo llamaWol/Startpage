@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
 :root {
-    --bg-colour: #4a3a42;
-    --bg-bright: #655057;
+    --bg-colour: #2a282e;
+    --bg-bright: #6d8d8a;
     --text-colour: #f6edcd;
+    --selection-colour: #b67789;
 }
 
 * {
@@ -21,9 +21,15 @@ body {
     flex-direction: column;
 }
 
+::selection {
+  color: None;
+  background: var(--selection-colour);
+}
+
+/*
 #cookie {
     position: fixed;
-    top: 35%;
+    top: 40%;
     transform: translate(0, -50%);
     cursor: pointer;
     transition: 0.15s ease-in-out;
@@ -32,6 +38,7 @@ body {
 #cookie:hover {
     transform: translate(0, -50%) scale(1.05);
 }
+*/
 
 #form {
     position: relative;
@@ -43,34 +50,44 @@ body {
     position: relative;
     outline: none !important;
     background: var(--bg-bright);
-    font: 16px "Poppins";
+    top: 55%;
+    font: 16px "Jetbrains Mono";
     color: var(--text-colour);
     height: 100%;
     width: 100%;
-    border: none;
+    border: 2px solid var(--bg-bright);
     border-radius: 10px;
     text-align: center;
 }
 
 #form #searchBtn {
     position: absolute;
+    outline: none !important;
     background: var(--bg-bright);
-    top: 50%;
+    top: 105%;
     right: -2;
     height: 30px;
     width: 30px;
     border: none;
+    border-radius: 10px;
     color: var(--text-colour);
     font-size: 20px;
     cursor: pointer;
     opacity: 0;
     pointer-events: none;
-    transform: translate(-10px, -50%);
+    transform: translate(-24px, -50%);
     transition: 0.15s ease-in-out;
 }
 
 #form #searchBtn.shown {
+    outline: none !important;
     opacity: 1;
-    transform: translate(0, -50%);
+    transform: translate(-32px, -50%);
     pointer-events: all
+}
+
+.ascii-art {
+    font-family: "Jetbrains Mono";
+    white-space: pre;
+    color: var(--bg-bright);
 }
