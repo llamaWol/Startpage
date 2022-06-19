@@ -26,7 +26,6 @@ body {
   background: var(--selection-colour);
 }
 
-/*
 #cookie {
     position: fixed;
     top: 40%;
@@ -38,7 +37,6 @@ body {
 #cookie:hover {
     transform: translate(0, -50%) scale(1.05);
 }
-*/
 
 #form {
     position: relative;
@@ -86,8 +84,10 @@ body {
     pointer-events: all
 }
 
+/*
 .ascii-art {
     font-family: "Jetbrains Mono";
     white-space: pre;
     color: var(--bg-bright);
 }
+/*
