@@ -13,5 +13,5 @@ window.addEventListener("load", () => {
 
 function submit(event) {
     event.preventDefault();
-    window.open(`https://duckduckgo.com/?q=${document.querySelector("#query").value}&ia=web`, "_self");
+    window.open(`https://google.com/search?q=${document.querySelector("#query").value}&ia=web`, "_self");
   }
